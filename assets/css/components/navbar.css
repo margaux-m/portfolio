@@ -16,9 +16,19 @@ nav > ul {
 nav > ul > li {
   display: inline-block;
   padding: 0px 10px;
+  margin-right: 1rem;
 }
 
 nav > ul > li > a {
   text-decoration: none;
   color: #363636;
+  padding: 5px 0px;
+}
+
+nav > ul > li > a:hover {
+  border-bottom: 3px solid #363636;
+}
+
+.tab-active {
+  border-bottom: 3px solid #363636;
 }
