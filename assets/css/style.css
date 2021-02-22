@@ -1,10 +1,27 @@
 /* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Work+Sans:wght@200;400&display=swap');
+/*font-family: 'Cutive Mono', monospace;
+font-family: 'Work Sans', sans-serif;*/
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 /* Components */
+@import url('components/btn.css');
+@import url('components/container.css');
+@import url('components/footer.css');
+@import url('components/navbar.css');
 
 /* Utilities */
+body {
+  font-family: 'Cutive Mono', monospace;
+  background-color: #FAFAFA;
+  color: #363636;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Work Sans', sans-serif;
+}
 
 /* Custom design */
