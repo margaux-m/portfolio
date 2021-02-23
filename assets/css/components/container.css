@@ -1,10 +1,11 @@
 .container {
-  width: 1200px;
+  width: 80%;
   margin: 0 auto;
-  height: 70vh;
   padding-top: 2.8rem;
 }
 
 .cta-container {
   margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }

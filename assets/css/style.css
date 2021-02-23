@@ -13,6 +13,25 @@ font-family: 'Work Sans', sans-serif;*/
 @import url('components/logo.css');
 @import url('components/navbar.css');
 
+/* Media queries */
+@media (max-width: 1200px) {
+  .cta-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 960px) {
+  .cta-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 580px) {
+  .cta-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Utilities */
 body {
   font-family: 'Cutive Mono', monospace;
@@ -20,6 +39,17 @@ body {
   color: #363636;
   margin: 0;
   font-size: 1.4rem;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  min-height:50px;
+}
+
+footer {
+  min-height:50px;
 }
 
 h1, h2, h3 {
