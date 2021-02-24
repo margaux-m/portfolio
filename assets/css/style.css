@@ -9,6 +9,7 @@ font-family: 'Work Sans', sans-serif;*/
 /* Components */
 @import url('components/btn.css');
 @import url('components/container.css');
+@import url('components/email.css');
 @import url('components/footer.css');
 @import url('components/logo.css');
 @import url('components/navbar.css');
@@ -71,4 +72,23 @@ h2 {
 h1#hello {
   font-family: 'Cutive Mono', monospace;
   font-size: 1.8rem;
+}
+
+.center {
+  text-align: center;
+}
+
+a.linkedin {
+  text-decoration: none;
+  color: #363636;
+}
+
+.contact-icons {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon {
+  padding: 20px;
 }

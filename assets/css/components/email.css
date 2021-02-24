@@ -1,0 +1,8 @@
+h3#email {
+  text-align: center;
+  margin: 0;
+}
+
+h3#email::after {
+  content: "margaux.mansanarez@gmail.com";
+}
