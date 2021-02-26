@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Work+Sans:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Work+Sans:wght@200;400;600&display=swap');
 /*font-family: 'Cutive Mono', monospace;
 font-family: 'Work Sans', sans-serif;*/
 
@@ -35,7 +35,7 @@ font-family: 'Work Sans', sans-serif;*/
 
 /* Utilities */
 body {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Work Sans', sans-serif;
   background-color: #FAFAFA;
   color: #363636;
   margin: 0;
@@ -59,6 +59,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 3.6rem;
+  font-weight: 600;
   margin-bottom: 1rem;
   margin-top: 0;
 }
@@ -66,6 +67,14 @@ h1 {
 h2 {
   font-size: 2rem;
   margin-top: 0;
+}
+
+p {
+  line-height: 2rem;
+}
+
+a {
+  font-family: 'Cutive Mono', monospace;
 }
 
 /* Custom design */
