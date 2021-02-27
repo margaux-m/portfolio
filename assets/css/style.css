@@ -8,6 +8,7 @@ font-family: 'Work Sans', sans-serif;*/
 
 /* Components */
 @import url('components/btn.css');
+@import url('components/cards.css');
 @import url('components/container.css');
 @import url('components/email.css');
 @import url('components/footer.css');
@@ -60,7 +61,7 @@ h1, h2, h3 {
 h1 {
   font-size: 3.6rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   margin-top: 0;
 }
 
@@ -81,6 +82,19 @@ a {
 h1#hello {
   font-family: 'Cutive Mono', monospace;
   font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+h1#role-title {
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.h2-subtitle {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 .center {
