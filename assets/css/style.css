@@ -8,6 +8,7 @@ font-family: 'Work Sans', sans-serif;*/
 
 /* Components */
 @import url('components/btn.css');
+@import url('components/cards.css');
 @import url('components/container.css');
 @import url('components/email.css');
 @import url('components/footer.css');
@@ -89,6 +90,11 @@ h1#role-title {
   font-weight: 600;
   margin-bottom: 1rem;
   margin-top: 0;
+}
+
+.h2-subtitle {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 .center {
