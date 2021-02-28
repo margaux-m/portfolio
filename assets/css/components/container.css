@@ -9,3 +9,14 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+.info-container {
+  background-color: #FFFFFF;
+  padding: 3rem;
+  margin-top: 4rem;
+}
+
+.info-container > h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
