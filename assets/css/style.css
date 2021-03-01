@@ -21,16 +21,26 @@ font-family: 'Work Sans', sans-serif;*/
   .cta-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .container-two-thirds {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
 }
 
 @media (max-width: 960px) {
   .cta-container {
     grid-template-columns: 1fr 1fr;
   }
+  .asset-cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 580px) {
   .cta-container {
+    grid-template-columns: 1fr;
+  }
+  .asset-cards {
     grid-template-columns: 1fr;
   }
 }
