@@ -20,3 +20,9 @@
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+.container-two-thirds {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 100px;
+}
