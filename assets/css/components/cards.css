@@ -59,7 +59,41 @@
 }
 
 /* Logo on hover */
-/*.cleo:hover {
-  content: "";
-  background-image: url('../../images/cleo.svg');
-}*/
+.project-card:hover {
+  background-repeat: no-repeat;
+}
+
+.cleo:hover {
+  background: url('../../images/cleo.svg') center;
+  background-size: cover;
+}
+
+.inhibit:hover {
+  background: url('../../images/inhibit.svg') center;
+  background-size: cover;
+}
+
+.performance-treanor:hover {
+  background: url('../../images/performance-treanor.svg') center;
+  background-size: cover;
+}
+
+.shaker:hover {
+  background: url('../../images/shaker.svg') center;
+  background-size: cover;
+}
+
+.bookmybook:hover {
+  background: url('../../images/bookmybook.svg') center;
+  background-size: cover;
+}
+
+.fly-ux:hover {
+  background: url('../../images/fly-ux.svg') center;
+  background-size: cover;
+}
+
+.alliancefr:hover {
+  background: url('../../images/af.svg') center;
+  background-size: cover;
+}
