@@ -60,7 +60,12 @@
 
 /* Logo on hover */
 .project-card:hover {
+  color: transparent;
   background-repeat: no-repeat;
+}
+
+.project-card:hover > * {
+  display: none;
 }
 
 .cleo:hover {
