@@ -25,6 +25,9 @@ font-family: 'Work Sans', sans-serif;*/
     grid-template-columns: 1fr;
     grid-gap: 0;
   }
+  .project-cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 960px) {
@@ -33,6 +36,12 @@ font-family: 'Work Sans', sans-serif;*/
   }
   .asset-cards {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .project-cards {
+    grid-template-columns: 1fr;
   }
 }
 

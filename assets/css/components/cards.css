@@ -1,3 +1,4 @@
+/* About page */
 .asset-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -18,4 +19,81 @@
 
 .asset-card > p {
   font-weight: 600;
+}
+
+/* Work page */
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  text-align: center;
+  grid-auto-rows: 1fr;
+}
+
+.project-card {
+  border: 2px solid #A8A8A8;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-card > h2 {
+  font-size: 2.4rem;
+  margin-top: 1rem;
+}
+
+.tags {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag {
+  background-color: #363636;
+  color: #FAFAFA;
+  padding: 3px 15px;
+  margin: 5px;
+}
+
+/* Logo on hover */
+.project-card:hover {
+  background-repeat: no-repeat;
+}
+
+.cleo:hover {
+  background: url('../../images/cleo.svg') center;
+  background-size: cover;
+}
+
+.inhibit:hover {
+  background: url('../../images/inhibit.svg') center;
+  background-size: cover;
+}
+
+.performance-treanor:hover {
+  background: url('../../images/performance-treanor.svg') center;
+  background-size: cover;
+}
+
+.shaker:hover {
+  background: url('../../images/shaker.svg') center;
+  background-size: cover;
+}
+
+.bookmybook:hover {
+  background: url('../../images/bookmybook.svg') center;
+  background-size: cover;
+}
+
+.fly-ux:hover {
+  background: url('../../images/fly-ux.svg') center;
+  background-size: cover;
+}
+
+.alliancefr:hover {
+  background: url('../../images/af.svg') center;
+  background-size: cover;
 }
