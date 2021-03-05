@@ -23,10 +23,11 @@ nav > ul > li > a {
   text-decoration: none;
   color: #363636;
   padding: 5px 0px;
+  font-size: 1.4rem;
 }
 
 nav > ul > li > a:hover {
-  border-bottom: 3px solid #363636;
+  border-bottom: 4px solid #363636;
 }
 
 .tab-active {
