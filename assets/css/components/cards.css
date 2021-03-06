@@ -30,6 +30,11 @@
   grid-auto-rows: 1fr;
 }
 
+.project-cards > a {
+  text-decoration: none;
+  color: #363636;
+}
+
 .project-card {
   border: 2px solid #A8A8A8;
   padding: 30px 20px;
