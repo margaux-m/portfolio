@@ -28,6 +28,7 @@
   grid-gap: 20px;
   text-align: center;
   grid-auto-rows: 1fr;
+  margin-top: 60px;
 }
 
 .project-cards > a {
