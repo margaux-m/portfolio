@@ -42,3 +42,9 @@ a.btn-small {
   padding: 0.7rem 1.6rem;
   margin: 2rem 0rem 0rem 0rem;
 }
+
+.btn-project {
+  font-size: 1rem;
+  display: inline-block;
+  padding: 3px 15px;
+}
