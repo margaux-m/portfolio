@@ -1,7 +1,5 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Work+Sans:wght@200;400;600&display=swap');
-/*font-family: 'Cutive Mono', monospace;
-font-family: 'Work Sans', sans-serif;*/
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
@@ -152,10 +150,6 @@ a {
 /* CUSTOM DESIGN */
 
 /* Home page */
-#logo {
-  font-size: 3rem;
-}
-
 h1#hello {
   font-family: 'Cutive Mono', monospace;
   font-size: 1.8rem;
