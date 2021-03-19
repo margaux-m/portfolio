@@ -10,8 +10,3 @@ a > h1#logo {
   color: #363636;
   margin: 0;
 }
-
-h1#logo:hover {
-  background-color: #363636;
-  color: #FAFAFA;
-}
