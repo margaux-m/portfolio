@@ -163,6 +163,12 @@ h1#role-title {
   margin-top: 0;
 }
 
+h1#contact {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 .h2-subtitle {
   margin-top: 4rem;
   margin-bottom: 3rem;
