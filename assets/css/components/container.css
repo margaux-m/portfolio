@@ -1,6 +1,9 @@
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
+}
+
+.container-body {
   padding-top: 2.8rem;
 }
 
