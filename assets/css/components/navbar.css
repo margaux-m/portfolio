@@ -1,9 +1,12 @@
+nav {
+  margin-bottom: 3rem;
+}
+
 nav > div {
   padding: 40px 0px;
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
-  margin-bottom: 3rem;
 }
 
 .menu {
