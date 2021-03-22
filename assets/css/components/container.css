@@ -7,6 +7,10 @@
   padding-top: 2.8rem;
 }
 
+.container-project {
+  width: 60%;
+}
+
 .cta-container {
   margin-top: 3rem;
   display: grid;
