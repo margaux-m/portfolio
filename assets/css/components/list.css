@@ -1,0 +1,11 @@
+li.arrow-bullet-point {
+  list-style-image: url('../../images/arrow.svg');
+  line-height: 2rem;
+  padding-bottom: 20px;
+  margin-left: 2.2rem;
+  padding-left: 1rem;
+}
+
+li.arrow-bullet-point:last-child {
+  padding-bottom: 0;
+}

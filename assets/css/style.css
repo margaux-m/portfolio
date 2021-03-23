@@ -11,6 +11,7 @@
 @import url('components/container.css');
 @import url('components/email.css');
 @import url('components/footer.css');
+@import url('components/list.css');
 @import url('components/logo.css');
 @import url('components/navbar.css');
 @import url('components/project.css');
@@ -141,6 +142,10 @@ h2 {
   font-size: 2rem;
   margin-top: 0;
   font-weight: 500;
+}
+
+h3 {
+  margin-top: 60px;
 }
 
 p {
