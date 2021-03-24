@@ -36,6 +36,10 @@ a.btn {
   color: #FAFAFA;
 }
 
+a.btn:hover {
+  box-shadow: 1px 1px 3px rgba(54, 54, 54, 0.2);
+}
+
 a.btn-small {
   display: inline-block;
   font-size: 1.2rem;

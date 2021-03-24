@@ -5,3 +5,7 @@
   background-size: cover;
   background-image: url('../../images/arrow-left-dark.svg');
 }
+
+.projects-nav-top:hover > .arrow-left {
+  background-image: url('../../images/arrow-left-black.svg');
+}
