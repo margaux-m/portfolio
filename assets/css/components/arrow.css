@@ -1,0 +1,7 @@
+.arrow-left {
+  margin-right: 10px;
+  width: 30px;
+  height: 20px;
+  background-size: cover;
+  background-image: url('../../images/arrow-left-dark.svg');
+}
