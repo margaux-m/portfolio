@@ -30,6 +30,10 @@
   .project-cards {
     grid-template-columns: 1fr 1fr;
   }
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -38,6 +42,9 @@
   }
   .asset-cards {
     grid-template-columns: 1fr 1fr;
+  }
+  .container-project {
+    width: 90%;
   }
 }
 
