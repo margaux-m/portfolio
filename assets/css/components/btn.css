@@ -47,6 +47,14 @@ a.btn-small {
   margin: 2rem 0rem 0rem 0rem;
 }
 
+.btn-small:first-child {
+  margin-right: 30px;
+}
+
+.btn-small:last-child {
+  margin-left: 30px;
+}
+
 .btn-project {
   font-size: 1rem;
   display: inline-block;
