@@ -52,7 +52,7 @@
   .project-cards {
     grid-template-columns: 1fr;
   }
-  footer {
+  footer > div {
     display: flex;
     flex-direction: column;
     align-items: center;
