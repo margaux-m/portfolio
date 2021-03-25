@@ -22,6 +22,8 @@ This portfolio is a simple static website made with HTML5, CSS3 and a bit of ES6
 All fully responsive to diverse screen sizes.📱
 
 <!-- ![Portfolio Homepage](/assets/images/portfolio-home.png "Portfolio Homepage") -->
-<img src="/assets/images/portfolio-home.png" alt="Portfolio Homepage" style="width:100px; display: inline-block;"/>
-<img src="/assets/images/portfolio-work.png" alt="Portfolio Homepage" style="width:100px; display: inline-block;"/>
+<p float="left">
+  <img src="/assets/images/portfolio-home.png" alt="Portfolio Homepage" style="width:100px;"/>
+  <img src="/assets/images/portfolio-work.png" alt="Portfolio Work page" style="width:100px;"/>
+</p>
 
