@@ -228,3 +228,16 @@ a.linkedin {
 .no-margin {
   margin: 0;
 }
+
+/* Error messages */
+
+.error {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 6rem;
+  margin-bottom: 0.9rem;
+}
+
+.error-text {
+  margin: 2rem 0;
+  margin-bottom: 5rem;
+}
