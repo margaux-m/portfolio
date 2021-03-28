@@ -119,6 +119,14 @@
   }
   ul.menu-entries > li > a:hover {
     border-bottom: none;
+    color: #FAFAFA;
+  }
+  ul.menu-entries > li:hover {
+    background-color: #363636;
+    border: 2px solid #363636;
+  }
+  .tab-active {
+    border-bottom: none;
   }
   a > h1#logo {
     font-size: 3.4rem;
