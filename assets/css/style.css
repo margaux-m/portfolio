@@ -147,6 +147,9 @@
   .asset-cards {
     grid-template-columns: 1fr;
   }
+  p#email-address {
+    font-size: 1rem;
+  }
 }
 
 /* Utilities */
