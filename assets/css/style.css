@@ -138,17 +138,53 @@
   a > h1#logo {
     font-size: 3.4rem;
   }
+  .btn-footer > a {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 580px) {
+  .timeline-card > p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  .timeline-info {
+    font-size: 0.9rem;
+  }
+  .container-body > h1 {
+    font-size: 2.6rem;
+  }
+  .container-two-thirds > div > h2 {
+    font-size: 1.6rem;
+  }
+  .container-two-thirds > div > p,
+  .info-container > p,
+  .container-project > div > p,
+  .arrow-bullet-point {
+    font-size: 1.1rem;
+  }
   .cta-container {
     grid-template-columns: 1fr;
   }
   .asset-cards {
     grid-template-columns: 1fr;
   }
-  p#email-address {
+  p#email-address,
+  a.btn-small {
     font-size: 1rem;
+  }
+  .btn-footer > a {
+    font-size: 0.8rem;
+  }
+  .projects-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .btn-small:first-child, .btn-small:last-child {
+    margin: 10px 0 0 0;
+  }
+  ul {
+    padding-left: 10px;
   }
 }
 
