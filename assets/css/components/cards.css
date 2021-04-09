@@ -75,6 +75,11 @@
   background-size: cover;
 }
 
+.personal-promotion:hover {
+  background: url('../../images/personal-promotion.svg') center;
+  background-size: cover;
+}
+
 .inhibit:hover {
   background: url('../../images/inhibit.svg') center;
   background-size: cover;

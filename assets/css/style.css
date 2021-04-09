@@ -240,6 +240,18 @@ a {
 
 /* CUSTOM DESIGN */
 
+a.text-link {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  color: #363636;
+  background-color: #89C064;
+}
+
+a.text-link:hover {
+  color: #FAFAFA;
+  background-color: #363636;
+}
+
 /* Home page */
 h1#hello {
   font-family: 'Cutive Mono', monospace;
