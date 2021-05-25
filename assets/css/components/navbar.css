@@ -1,7 +1,14 @@
 nav {
+  position: fixed;
+  top: 0;
+  height: 140px;
+  width: 100%;
+  background-color: #FAFAFA;
   margin-bottom: 3rem;
   border-bottom: 1px solid #FAFAFA;
   transition: border-bottom 1s ease 0.25s;
+  transition: top 0.6s ease-in-out;z-index: 0;
+  z-index: 1;
 }
 
 nav:hover {

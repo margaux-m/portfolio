@@ -1,6 +1,7 @@
 #timeline {
   /*position: fixed;*/
   position: relative;
+  z-index: 0;
 }
 
 .timeline-right {
