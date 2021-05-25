@@ -1,41 +1,18 @@
-let didScroll;
+let lastScrollTop = 0;
+const navbar = document.getElementById('navbar');
 
-const lastScrollTop = 0;
-const delta = 5;
-const navbarHeight = document.getElementById('navbar').outerHeight();
+const hasScrolled = () => {
+  window.addEventListener("scroll", function() {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-// on scroll, let the interval function know the user has scrolled
-$(window).scroll(function(event){
-  didScroll = true;
-});
+    if (scrollTop > lastScrollTop) {
+      navbar.style.top="-140px";
+    } else {
+      navbar.style.top="0px";
+    };
 
-// run hasScrolled() and reset didScroll status
-setInterval(function() {
-  if (didScroll) {
-    hasScrolled();
-    didScroll = false;
-  }
-}, 250);
+    lastScrollTop = scrollTop;
+  });
+};
 
-function hasScrolled() {
-  var st = $(window).scrollTop();
-
-  if (Math.abs(lastScrollTop — st) <= delta) {
-    return;
-
-  }
-
-  // If current position > last position AND scrolled past navbar...
-  if (st > lastScrollTop && st > navbarHeight){
-    // Scroll Down
-    $(‘header’).removeClass(‘nav-down’).addClass(‘nav-up’);
-  } else {
-    // Scroll Up
-    // If did not scroll past the document (possible on mac)...
-    if(st + $(window).height() < $(document).height()) {
-      $(‘header’).removeClass(‘nav-up’).addClass(‘nav-down’);
-    }
-  }
-
-  lastScrollTop = st;
-}
+export { hasScrolled };
