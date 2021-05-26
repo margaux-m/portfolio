@@ -219,11 +219,11 @@ a.linkedin {
 
 @media (max-width: 660px) {
   body {
-    padding-top: 281px;
+    padding-top: 250px;
   }
   nav {
     border-bottom: 1px solid #A8A8A8;
-    height: 280px;
+    height: 250px;
   }
   .container-navbar {
     flex-direction: column;
@@ -248,7 +248,6 @@ a.linkedin {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     margin-top: 50px;
-    margin-bottom: 30px;
   }
   ul.menu-entries > li > a:hover {
     border-bottom: none;
