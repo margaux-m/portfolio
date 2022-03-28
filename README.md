@@ -6,7 +6,7 @@ So here I am in March 2021 building my online portfolio to share my path and the
 
 You can check it out at [www.margauxmansanarez.com](https://www.margauxmansanarez.com/).✌️
 
-![MargauxM logo](/assets/images/logo-cover.png "MargauxM logo")
+![MargauxM logo](/assets/images/logo-cover.png "Logo")
 
 ## What it is made with 🎨🧙‍♀️
 
